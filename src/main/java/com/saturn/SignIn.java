@@ -40,7 +40,7 @@ public class SignIn {
     @Produces(MediaType.APPLICATION_JSON)
     public Response foo() {
 
-        logger.info("Received a Message");
+        logger.info("Received a JSONMessage");
         return Response.ok().build();
 
     }
